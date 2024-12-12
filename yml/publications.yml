@@ -1,0 +1,46 @@
+publications:
+  - image: "assets/img/paper/LRSLAM.png"
+    title: "Querying Labelled Time Series Data with Scenario Programs"
+    link: ""
+    authors: "E. Kim, D. Shanker, V. Bharadhwaj, <strong>Hongbeen Park</strong>, Jinkyu Kim, H. Torfah, D. Fremont, S. Seshia, "
+    conference: "Under Review"
+    description: >
+      We propose a more efficient visual SLAM model, called LRSLAM, utilizing low-rank tensor decomposition methods.
+      Our approach, leveraging the Six-axis and CP decompositions, achieves better convergence rates, memory efficiency,
+      and reconstruction/localization quality.
+  - image: "assets/img/paper/LRSLAM.png"
+    title: "LRSLAM: Low-rank Representation of Signed Distance Fields in Dense Visual SLAM System"
+    link: "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10364.pdf"
+    authors: "<strong>Hongbeen Park</strong>, Minjeong Park, Giljoo Nam, and Jinkyu Kim"
+    conference: "ECCV 2024, European Conference on Computer Vision"
+    description: >
+      We propose a more efficient visual SLAM model, called LRSLAM, utilizing low-rank tensor decomposition methods.
+      Our approach, leveraging the Six-axis and CP decompositions, achieves better convergence rates, memory efficiency,
+      and reconstruction/localization quality.
+  - image: "assets/img/paper/LRSLAM.png"
+    title: "VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions"
+    link: "https://arxiv.org/pdf/2407.12345"
+    authors: "Seokha Moon, Hyun Woo, <strong>Hongbeen Park</strong>, Haeji Jung, Reza Mahjourian, Hyung-gun Chi, Hyerin Lim, Sangpil Kim, Jinkyu Kim"
+    conference: "ECCV 2024, European Conference on Computer Vision"
+    description: >
+      We propose a more efficient visual SLAM model, called LRSLAM, utilizing low-rank tensor decomposition methods.
+      Our approach, leveraging the Six-axis and CP decompositions, achieves better convergence rates, memory efficiency,
+      and reconstruction/localization quality.
+  - image: "assets/img/paper/LRSLAM.png"
+    title: "HyperCLOVA X Technical Report"
+    link: "https://arxiv.org/pdf/2404.01954"
+    authors: "NAVER Cloud HyperCLOVA X Team"
+    conference: "Arxiv"
+    description: >
+      We propose a more efficient visual SLAM model, called LRSLAM, utilizing low-rank tensor decomposition methods.
+      Our approach, leveraging the Six-axis and CP decompositions, achieves better convergence rates, memory efficiency,
+      and reconstruction/localization quality.
+  - image: "assets/img/paper/LRSLAM.png"
+    title: "Learning Temporal Cues by Predicting Objects Move for Multi-Camera 3D Object Detection"
+    link: "https://arxiv.org/pdf/2404.01580"
+    authors: "Seokha Moon, <strong>Hongbeen Park</strong>, Jaekoo Lee, Jinkyu Kim"
+    conference: "ICRA 2024, International Conference on Robotics and Automation"
+    description: >
+      We propose a more efficient visual SLAM model, called LRSLAM, utilizing low-rank tensor decomposition methods.
+      Our approach, leveraging the Six-axis and CP decompositions, achieves better convergence rates, memory efficiency,
+      and reconstruction/localization quality.
