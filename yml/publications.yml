@@ -1,9 +1,18 @@
 publications:
   - image: "assets/img/paper/LRSLAM.png"
+    title: "ViTA-PAR: Visual and Textual Attribute Alignment with Attribute Prompting for Pedestrian Attribute Recognition"
+    link: ""
+    authors: "Minjeong Park, <strong>Hongbeen Park</strong>, Jinkyu Kim"
+    conference: "ICIP 2025, International Conference on Image Processing"
+    description: >
+      We propose a more efficient visual SLAM model, called LRSLAM, utilizing low-rank tensor decomposition methods.
+      Our approach, leveraging the Six-axis and CP decompositions, achieves better convergence rates, memory efficiency,
+      and reconstruction/localization quality.
+  - image: "assets/img/paper/LRSLAM.png"
     title: "Querying Labelled Time Series Data with Scenario Programs"
     link: ""
-    authors: "E. Kim, D. Shanker, V. Bharadhwaj, <strong>Hongbeen Park</strong>, Jinkyu Kim, H. Torfah, D. Fremont, S. Seshia, "
-    conference: "Under Review"
+    authors: "E. Kim, D. Shanker, V. Bharadhwaj, <strong>Hongbeen Park</strong>, Jinkyu Kim, H. Torfah, D. Fremont, S. Seshia"
+    conference: "NASA Formal Methods 2025"
     description: >
       We propose a more efficient visual SLAM model, called LRSLAM, utilizing low-rank tensor decomposition methods.
       Our approach, leveraging the Six-axis and CP decompositions, achieves better convergence rates, memory efficiency,
