@@ -1,7 +1,7 @@
 publications:
   - image: "assets/img/paper/LRSLAM.png"
     title: "ViTA-PAR: Visual and Textual Attribute Alignment with Attribute Prompting for Pedestrian Attribute Recognition"
-    link: ""
+    link: "https://arxiv.org/pdf/2506.01411"
     authors: "Minjeong Park, <strong>Hongbeen Park</strong>, Jinkyu Kim"
     conference: "ICIP 2025, International Conference on Image Processing"
     description: >
@@ -10,7 +10,7 @@ publications:
       and reconstruction/localization quality.
   - image: "assets/img/paper/LRSLAM.png"
     title: "Querying Labelled Time Series Data with Scenario Programs"
-    link: ""
+    link: "https://arxiv.org/pdf/2511.10627"
     authors: "E. Kim, D. Shanker, V. Bharadhwaj, <strong>Hongbeen Park</strong>, Jinkyu Kim, H. Torfah, D. Fremont, S. Seshia"
     conference: "NASA Formal Methods 2025"
     description: >
