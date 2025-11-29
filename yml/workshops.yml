@@ -3,7 +3,7 @@ workshops:
     title: "Fast and Precise Multimodal SpatioTemporal Calibration via Periodic-Activated 2D Gaussian Splatting"
     link: "https://openreview.net/forum?id=Gx4GXvh2y9"
     authors: "<strong>Hongbeen Park*</strong>, Minjeong Park*, Sunpil Kim, Jinkyu Kim, Jung Hyun Lee"
-    conference: "International Conference on Computer Vision (ICCV) Wild3D Workshop, 2025"
+    conference: "International Conference on Computer Vision (<strong>ICCV</strong>) Wild3D Workshop, 2025"
     description: >
       We propose a more efficient visual SLAM model, called LRSLAM, utilizing low-rank tensor decomposition methods.
       Our approach, leveraging the Six-axis and CP decompositions, achieves better convergence rates, memory efficiency,

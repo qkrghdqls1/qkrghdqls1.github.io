@@ -19,14 +19,14 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="code/script.js"></script>
     <title>Hongbeen Park</title>
-
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.ico">
@@ -43,110 +43,107 @@
         </a>
         <ul>
           <li><a href="#home;" onclick="fnMove('home')">Home</a></li>
-          <li><a href="#education;" onclick="fnMove('education')">Education</a></li>
+          <!-- <li><a href="#education;" onclick="fnMove('education')">Education</a></li> -->
           <li><a href="#publications;" onclick="fnMove('publications')">Publications</a></li>
           <li><a href="#experience;" onclick="fnMove('experience')">Experience</a></li>
-          <li><a href="#other;" onclick="fnMove('other')">Other</a></li>
         </ul>
     </div>
   </nav>
 
     <main>
       <div id="home"></div>
-      <div class="about">
-      <div class="profile">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <div class="info">
-                  <div class="title">Hongbeen Park</div>
-                  <!-- <div class="description">Research Intern</div> -->
-                </div>
-                
-                <div class="title-info">
-                    <div class="justify">
-                    <p>
-                      My research interests lie in computer vision and vision–language action (VLA).
-                      My work focuses on autonomous driving and 3D vision, particularly SLAM (simultaneous localization and mapping) and explainable AI.
-                      I aim to develop robust perception, mapping, and multimodal action understanding models that operate reliably in complex real-world environments and across diverse 2D and 3D representations.
-                    <!-- <p>
-                        My research interests lie in the intersection field of computer vision, especially on the tasks of Autonomous Vechicle, 3D Vision,
-                        simultaneous localization and mapping (SLAM) and explainable-AI. -->
-                    </p>
-                </div>
-                </div>
-              </td>
-
-              <td style="padding:5%;width:60%;max-width:60%;vertical-align:middle;">
-                <img class="selfie" alt="Hongbeen Park" src="assets/img/profile.jpg" />
-                <div class="social-layer">
-                    <div class="social-icons">
-                    <ul>        
-                        <li>
-                            <a href="javascript:void(0);" title="Copy Email">
-                                <span class="fa-stack fa-lg" onclick="clipboard_copy()">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                <li>
-                    <a href="/assets/resume_hongbeen.pdf" title="resume">
-                        <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-file fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                </li>
-
-                <li>
-                <a href="https://github.com/qkrghdqls1" title="Follow On GitHub">
-                    <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+          <div class="about">
+        <div class="profile">
+          <div class="contents">
+            <img class="selfie" alt="Hongbeen Park" src="assets/img/profile.jpg" />
+            <div class="social-layer">
+              <ul>
+                <!-- <li>
+                  <a href="javascript:void(0);" title="Copy Email">
+                    <span class="fa-stack fa-lg" onclick="clipboard_copy()">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                     </span>
-                </a>
+                  </a>
+                </li> -->
+                <!-- CV Resume -->
+                <li>
+                  <a href="assets/resume_hongbeen.pdf" title="CV" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa-solid fa-file-lines fa-xl"></i>
+                    </span>
+                  </a>
                 </li>
-                </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
+                <!-- Google Scholar -->
+                <li>
+                  <a href="https://scholar.google.com/citations?user=yFw-VdcAAAAJ&hl=ko" title="Google Scholar" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa-solid fa-graduation-cap fa-xl"></i>
+                    </span>
+                  </a>
+                </li>
+                <!-- LinkedIn -->
+                <li>
+                  <a href="https://www.linkedin.com/in/hongbeen-park-44b307314/" title="LinkedIn" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa-brands fa-linkedin fa-xl"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>  
+          </div>
+
+          <div class="info">
+            <div id="hello" class="section">
+              Hello! I'm &nbsp;<div class="title">Hongbeen Park.</div></div>
+            <div id="hello" class="section">
+              I'm interested in&nbsp;<span id="typing-effect"></span><span class="cursor">|</span>
+              <!-- <div class="scroll-arrow" onclick="fnMove('about')">
+                  ▾
+              </div> -->
+          </div>
+            <div class="title-info">
+              <p>
+                      My research interests lie in <b>computer vision</b> and <b>vision–language action (VLA)</b>.
+                      Previously, my work focused on autonomous driving and 3D vision, particularly SLAM (simultaneous localization and mapping) and explainable AI.
+                      I aim to develop robust perception, mapping, and multimodal action understanding models that operate reliably in complex real-world environments and across diverse 2D and 3D representations.
+                
+              </p>
+              
+              <p>
+                <!-- <span style="font-size: 0.9rem;">
+                  <i> I'm now looking for <b> a 2026 Summer PhD Internship</b>.
+                    Please find my CV <a href="assets/resume.pdf">here</a></i>! 
+            
+                  <br>
+                </span> -->
+                
+              <span style="font-size: 0.9rem;">
+                 🎓 </span>
+              <span style="font-size: 0.8rem;">
+                M.S. in Computer Science and Engineering at Korea University </span><br>
+              <span style="font-size: 0.9rem;">
+                 🎓</span>
+              <span style="font-size: 0.8rem;">
+                B.S. in Computer Science and Engineering at Korea University
+              </span><br>
+              <span style="font-size: 0.9rem;">
+                 🎓</span>
+              <span style="font-size: 0.8rem;">
+                H.S. Diploma at Seoul Science High School
+              </span><br>
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
               </td>
             </tr>
           </tbody></table>
   </div>
-</div>
-
-<div class="education">
-    <h2 id="education">Education</h2>
-    <div class="zero_pad">
-    <ul class="ul-edu fa-ul" style="margin-top: 1px; margin-bottom: 1px;">
-      <li class="icon-with-text">
-        <i class="fa-li fas fa-graduation-cap"></i>
-        <div class="description">
-            <p class="course">
-                M.S. in Computer Science and Engineering
-                <span class="date">Sep. 2023 - Aug. 2025</span>
-            </p>
-            <p class="institution">Korea University, South Korea</p>
-        </div>
-    </li>      
-    </ul>
-    <ul class="ul-edu fa-ul" style="margin-top: -10px; margin-bottom: 1px;">
-        <li class="icon-with-text">
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-                <p class="course">
-                    B.S. in Computer Science and Engineering
-                    <span class="date">Mar. 2019 - Feb. 2023</span>
-                </p>
-                <p class="institution">Korea University, South Korea</p>
-            </div>
-        </li>
-    </ul>
-</div>
 </div>
 
 <div id="publications"></div>
@@ -161,7 +158,7 @@
 
 
 
-<div id="Awards & Honors"></div>
+<div id="experience"></div>
 <h2>Work Experience</h2>
 <ul class="publication-list" id="experience-list"></ul>
 </div>
@@ -198,6 +195,38 @@
         loadExperience();
     </script>
 
+      <script>
+        const items = ['Computer Vision. ', '3D Vision. ', 'Pose Optimization. ', 'Machine Learning. '];
+        let index = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingEffect = document.getElementById('typing-effect');
+    
+        function typeEffect() {
+          const currentText = items[index];
+          const displayedText = isDeleting
+            ? currentText.substring(0, charIndex--)
+            : currentText.substring(0, charIndex++);
+          
+          typingEffect.textContent = displayedText;
+          if (!isDeleting && charIndex === currentText.length) {
+            // 글자 다 쳤으면 1초 대기 후 삭제 모드로 전환
+            isDeleting = true;
+            setTimeout(typeEffect, 600);
+          } else if (isDeleting && charIndex === 0) {
+            // 글자 다 지웠으면 다음 단어로 넘어감
+            isDeleting = false;
+            index = (index + 1) % items.length;
+            setTimeout(typeEffect, 100);
+          } else {
+            // 타이핑 속도 조절
+            const typingSpeed = isDeleting ? 50 : 100;
+            setTimeout(typeEffect, typingSpeed);
+          }
+        }
+    
+        typeEffect(); // 초기 실행
+      </script>
   </body>
 </html>
 
